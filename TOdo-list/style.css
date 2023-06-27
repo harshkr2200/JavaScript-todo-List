@@ -1,0 +1,79 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   text-align: center;
+   color: powderblue;
+   margin-bottom: 10px;
+}
+
+.main_box {
+   max-width: 100%;
+   /* background-color: yellow; */
+}
+
+.todo_list_box {
+   width: 60%;
+   margin: 0px auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 0px auto;
+}
+
+.todo_list_box input {
+   padding: 10px;
+   width: 75%;
+   border: 1px solid gray;
+   border-radius: 10px;
+   margin-left: 10px;
+}
+
+.todo_list_box input::placeholder {
+   font-size: 16px;
+   text-align: left;
+}
+
+#add-task-btn {
+   padding: 10px 15px;
+   margin-right: 10px;
+   border: 1px solid #fff;
+   background-color: blueviolet;
+   border-radius: 10px;
+   float: right;
+   transform: all 0.5s ease;
+}
+
+#add-task-btn:hover {
+   background-color: rosybrown;
+
+}
+
+.todo_list_box table {
+   width: 100%;
+   margin-top: 10px;
+}
+
+.todo_list_box .table_head {
+   background-color: aquamarine;
+
+}
+
+.todo_list_box .table_item {
+   text-align: center;
+   border: 1px solid yellowgreen;
+}
+
+.td_icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+@media (max-width:992px) {
+   .todo_list_box {
+      width: 100%;
+   }
+}
